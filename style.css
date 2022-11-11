@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to right, #6b9ef0, #3de684, #d2b259, #e87f76 );
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.sessao1 {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.area-login {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.317);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur( 20.5px );
+    -webkit-backdrop-filter: blur( 20.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+form input {
+    margin-top: 10px;
+   padding: 15px;
+   height: 35px;
+   width: 300px;
+   background-color: rgba(188, 174, 174, 0.485);
+   border: none;
+   border-radius: 7px;
+
+}
+
+img {
+    margin-top: 20px;
+    height: 50px;
+}
+
+
+.botao {
+  width: 330px;
+  margin-bottom: 35px;
+  margin-top: 35px;
+  height: 40px;
+}
+
+
+.botao:hover {
+    background-color: #27a2d6;
+    transition: 0.5s;
+}
+
+div > p > a {
+    text-decoration: none;
+    color: #000;
+}
+
+div > p > a:hover {
+    text-decoration: underline;
+    color: rgb(68, 68, 215);
+}
